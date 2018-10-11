@@ -66,14 +66,6 @@ android {
             outputFileName = new File(timeNow, newName)
         }
     }
-
-//    android.applicationVariants.all { variant ->
-//        variant.outputs.all {
-//            def newName
-//            newName = 'AutoBuildTest-v' + APP_VERSION + '-' + variant.productFlavors[0].name + '-' + variant.buildType.name + '.apk'
-//            outputFileName = new File(newName)
-//        }
-//    }
 }
 
 dependencies {
