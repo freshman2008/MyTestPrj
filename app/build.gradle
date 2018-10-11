@@ -44,7 +44,7 @@ android {
             //时间戳
             def timeNow
             //输出文件夹
-            def outDirectory
+//            def outDirectory
 
             //是否为Jenkins打包，输出路径不同
             if ("true".equals(IS_JENKINS)) {
